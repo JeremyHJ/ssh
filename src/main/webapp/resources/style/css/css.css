@@ -1,0 +1,223 @@
+/*基本信息*/
+body {font:宋体,Tahoma;margin:0px auto;text-align:center;background:url(/images/bg1.gif);}
+a:link,a:visited {text-decoration:none;}
+a:hover{text-decoration:underline;}
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p { padding:0; margin:0;}
+
+
+/*页面层容器*/
+#container {width:1380px;margin:0px auto;background:#ffffff;}
+
+/*页面头部*/
+#Header {background:url(/images/bg.jpg) repeat-x; margin:0px auto;width:1380px;Height:108px;}
+#logo {float: left; margin-top: 20px;margin-left: 30px;}
+#User{background:url(/images/userbackground.png); margin:35px 20px 0 0;width:470px;height:38px;float:right;border:0;list-style:none;text-align:center;}
+#User ul  {list-style:none;padding:0;line-height:20px; margin:7px 0 0 0;}
+#User li {display:inline;}
+.userfct {color:#7c3700;font:宋体,Tahoma;font-size:12px;margin:0 3px 0 3px;}
+a.userfct:hover{text-decoration:underline;}
+
+
+
+#menu {background:url(/images/menu_bg.gif); margin:0px auto;witdth:1080px;height:40px;padding:0;}
+#menu ul  {float:left;list-style:none;margin:0 ;padding:0;line-height:40px;}
+#menu li {float:left;display:inline;}
+.menuDiv {width:1px;height:40px;background:#d2aa62;margin:0;}
+
+.menunav1 {color:#7c3700;font:宋体,Tahoma;font-size:14px;font-weight:bold;display:block;width:110px;}
+a.menunav1:hover{background-color:#d7a855;}
+
+
+.menunav2 {color:#7c3700;font:宋体,Tahoma;font-size:12px;font-weight:bold;display:block;width:55px;}
+a.menunav2:hover{background-color:#d7a855;}
+
+.menunav3 {color:#e70000;font:宋体,Tahoma;font-size:14px;font-weight:bold;display:block;width:90px;margin:0 0 0 0;padding:0 0 0 0;}
+a.menunav3:hover{background-color:#d7a855;}
+
+.menunav11 {color:#7c3700;font:宋体,Tahoma;font-size:14px;font-weight:bold;display:block;width:110px;}
+a.menunav11:hover{background-color:#d7a855;}
+
+
+.menunav22 {color:#7c3700;font:宋体,Tahoma;font-size:12px;font-weight:bold;display:block;width:51px;}
+a.menunav22:hover{background-color:#d7a855;}
+
+.menunav33 {color:#e70000;font:宋体,Tahoma;font-size:14px;font-weight:bold;display:block;width:80px;margin:0 0 0 0;padding:0 0 0 0;}
+a.menunav33:hover{background-color:#d7a855;}
+
+
+.menuIcon {border:0;display:inline;vertical-align:middle;}
+.searchbtn{margin:-10px 0 0 10px;}
+.loginbtn{margin:0 0 10px 0;height:28px;}
+
+
+#pagebody {
+ width:980px; /*设定宽度*/
+ margin:0px; /*居中*/
+ background-color:#ffffff;
+ height:1840px;
+ float:left;
+ vertical-align:top;
+}
+#pagebody2 {
+ width:1380px; /*设定宽度*/
+ margin:0px; /*居中*/
+ background-color:#ffffff;
+ height:2955px;
+ float:left;
+ vertical-align:top;
+}
+#sidebar {
+ width:216px; /*设定宽度*/
+ text-align:left; /*文字左对齐*/
+ float:left; /*浮动居左*/
+ clear:left; /*不允许左侧存在浮动*/
+ overflow:hidden; /*超出宽度部分隐藏*/
+ background-color:#ffffff;
+ height:2940px;
+}
+
+.sidebox{ margin:15px 0 0 12px;width:190px;}
+.sidetitle{ font:宋体,Tahoma;font-size:14px;font-weight:bold;color:#fff;background-color:#a5bcc2; height:26px; line-height:22px; padding-left:9px;padding-top:4px;}
+.sidecontent{ font:宋体,Tahoma;font-size:14px;color:#11343d;background-color:#e2e3e5; padding:10px 10px 10px 10px;}
+/*.sidemessage { font:宋体,Tahoma;font-size:12px;color:#11343d; padding-left:25px; height:40px; line-height:20px;background-color:#e2e3e5;}*/
+.search {height:80px;}
+.login {height:160px;}
+.message {height:150px;}
+
+
+.weixin {float:left; width:190px; height:550px; margin:25px 0 0 12px; background-color:#ffffff;}
+.weixinpic {border:0px;}
+
+.more { float:right; padding-right:6px; font-size:12px; font-weight:normal; color:#11343d; }
+.more2 { float:right; padding-right:0; font-size:12px; font-weight:normal; color:#5c3508;vertical-align:text-bottom;}
+
+.sidemessage{font:宋体,Tahoma;font-size:12px;color:#11343d;}
+
+.sidecontent li{overflow:hidden; padding-top:3px;padding-bottom:6px;list-style:none;border-bottom:1px dashed #c6c9ce;}
+
+.inp_srh {width:168px; height:28px;; border:1px solid #cbcbcb; margin-bottom:10px;vertical-align:middle;line-height:28px; }
+.password {width:168px; height:20px;; border:1px solid #cbcbcb;margin-top:3px; margin-bottom:10px;vertical-align:middle;line-height:20px; }
+
+.leibie {width:80px; height:28px;; border:1px solid #cbcbcb; margin-bottom:10px;vertical-align:middle;line-height:28px;}
+
+#mainbody {
+ width:764px;
+ text-align:left;
+ float:right; /*浮动居右*/
+ clear:right; /*不允许右侧存在浮动*/
+ overflow:hidden;
+ background-color:#ffffff;
+ height:1840px;
+ margin:0;
+}
+#mainbody2 {
+ width:1164px;
+ text-align:left;
+ float:right; /*浮动居右*/
+ clear:right; /*不允许右侧存在浮动*/
+ overflow:hidden;
+ background-color:#ffffff;
+ height:2955px;
+ margin:0;
+}
+
+#titlebox{
+ width:1088px;
+ text-align:left;
+ float:left; /*浮动居右*/
+ clear:left; /*不允许右侧存在浮动*/
+ overflow:hidden;
+ background-color:#ffffff;
+ height:18px;
+ margin-top:15px;
+	}
+	
+	
+	
+.item_container { margin: 10px auto; width:1175px;float:left;display:inline;}
+.item { margin-bottom: 18px; width:174px; margin:0 7px 0 0;display:inline-block;_display:inline;*display:inline;zoom:1; vertical-align:top;}
+.bookcover {border:0px;margin:0;vertical-align:middle;}
+.bookback {width: 174px; height: 174px; margin:0;border:0px;background-color:#cab89a;
+/*非IE的主流浏览器识别的垂直居中的方法*/ 
+display: table-cell; 
+vertical-align:middle; 
+/*设置水平居中*/ 
+text-align:center; 
+/* 针对IE的Hack */ 
+*display: block; 
+border: 1px solid #eee;}
+
+
+.bookbox{height:50px;background-color:#ffffff;margin:5px 0 0 0;overflow:hidden;}
+.bookname{font:宋体,Tahoma;font-size:12px;color:#5c3508;text-align: left;margin:0 0 0 0;}
+.red{color:#fd7700;margin:5px 0 0 0;float:left;}
+
+
+.price{height:24px;background-color:#ffffff;padding:0 0 0 0;margin:0 0 0 0;vertical-align:middle;align:left;}
+.price2{height:74px;background-color:#ffffff;padding:0 0 0 0;margin:0 0 0 0;vertical-align:middle;align:left;}
+.bookbuy {margin:0 0 0 0;height:24px;border:0;display:inline;vertical-align:middle;float:right;}
+.paimai{float:left;display:inline-block;margin:8px 0 0 0;}
+
+
+#Banner {float:left;clear:left;margin:10px 0 10px 0;border:0;}
+
+
+.forum {width:1150px;float:left;font:宋体,Tahoma;font-size:12px;color:#5c3508;margin:8px 0 0 0 ;}
+.forum li {width:1130px;text-align: left;height:22px; padding:12px 0 0 0px; border-bottom:1px dashed #dcdcdc; color:#5c3508;list-style:none;}
+.forumtitlestrong { color:#ba0000;font-weight:bold;}
+.forumtitle{font:宋体,Tahoma;font-size:12px;color:#5c3508;}
+
+
+
+
+
+
+#footer {
+ width:1380px; /*设定宽度*/
+ margin:0px auto; /*居中*/
+ background-color:#ffffff;
+ height:60px;
+ margin:0;
+ float:left;
+}
+#footer ul  {float:left;list-style:none;margin:0 ;padding:0;line-height:20px;}
+#footer li {float:left;display:inline;}
+.footDiv {width:1px;height:20px;background:#74685b;margin:0;}
+.foot1 {color:#74685b;font:宋体,Tahoma;font-size:12px;margin:0 10px 0 10px;}
+a.foot1:hover{text-decoration:underline;}
+.foot2 {color:#74685b;font:宋体,Tahoma;font-size:12px;line-height:20px;}
+a.foot2:hover{text-decoration:underline;}
+
+#footer_left {
+ width:500x; /*设定宽度*/
+ text-align:left; /*文字左对齐*/
+ float:left; /*浮动居左*/
+ clear:left; /*不允许左侧存在浮动*/
+ overflow:hidden; /*超出宽度部分隐藏*/
+ padding:10px 0 0 0;
+}
+#footer_right {
+ width:480px;
+ text-align:right;
+ float:right; /*浮动居右*/
+ clear:right; /*不允许右侧存在浮动*/
+ overflow:hidden;
+ padding:0 10px 0 0;
+}
+.footerpic{display:inline;vertical-align:middle;}
+
+#line {
+ width:100%; /*设定层的宽度*/
+ margin:0 0 0 0; /*层居中*/
+ height:2px; /*设定高度*/
+ border-bottom:2px solid #eddec9; /*画一条浅灰色实线*/
+ clear:both /*清除浮动*/
+}
+
+#line2 {
+ width:1091px; /*设定层的宽度*/
+ margin:0 0 0 0; /*层居中*/
+ height:2px; /*设定高度*/
+ border-bottom:2px solid #eddec9; /*画一条浅灰色实线*/
+ clear:both /*清除浮动*/
+}
